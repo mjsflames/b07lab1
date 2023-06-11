@@ -8,7 +8,7 @@ public class Driver {
 		double [] c2 = {5, 6, 7};
 		int [] e2 = {2, 1, 0};
 		Polynomial p2 = new Polynomial(c2, e2);
-		Polynomial s = p1.add(p2);
+		Polynomial s = p1.multiply(p2);
 		//System.out.println("s(0.1) = " + s.evaluate(0.1));
 		//if(s.hasRoot(1))
 		//	System.out.println("1 is a root of s");
